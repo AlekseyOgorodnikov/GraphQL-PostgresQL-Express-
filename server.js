@@ -12,7 +12,7 @@ PORT = process.env.PORT || 4000
 const client = new Client({
     host: "localhost",
     user: "postgres",
-    password: "Apple147258",
+    password: "",
     port: 5342,
     database: "league"
 })
